@@ -105,3 +105,4 @@ venv.bak/
 
 # checkpoints
 checkpoints/
+mmod_images/
