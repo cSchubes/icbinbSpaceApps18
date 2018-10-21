@@ -17,7 +17,3 @@ def feed_model(image_data):
     damaged_pics = [torch_data[i] for i in indices]    
 
     return damaged_pics
-
-
-if __name__ == "__main__":
-    feed_model()
