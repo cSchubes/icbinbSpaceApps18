@@ -30,10 +30,13 @@ namespace I_Cannot_Beleive_Its_Not_Butter
         public static List<ImageProcessors> ProcessImages(List<ImageProcessors> allImages)
         {
             List<ImageProcessors> postiveImages = new List<ImageProcessors>();
+            var sendImages = new List<ImageObj>();
+            sendImages.AddRange(allImages); 
 
             var ipy = Python.CreateRuntime();
             dynamic test = ipy.UseFile("test.py");
-            List<ImageObj> resultImage = test.my_function(2);
+            
+            List<ImageObj> resultImage = test.my_function(sendImages);
 
             postiveImages = (List<ImageProcessors>)resultImage.Select(res => res.ID).Intersect(allImages.Select(a => a.ID));
 
@@ -46,6 +49,8 @@ namespace I_Cannot_Beleive_Its_Not_Butter
             Image returnImage = Image.FromStream(ms);
             return returnImage;
         }
+
+        
 
     }
 
