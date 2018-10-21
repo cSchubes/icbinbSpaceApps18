@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: 2b55189952d183a4080c5b64f30dd6c5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CBM-flaps-open_000
+    100002: CBM-flaps-open_001
+    100004: CBM-flaps-open_002
+    100006: CBM-flaps-open_010
+    100008: //RootNode
+    100010: Short_Node
+    100012: Short_Node_MeshPart0
+    100014: Short_Node_MeshPart1
+    400000: CBM-flaps-open_000
+    400002: CBM-flaps-open_001
+    400004: CBM-flaps-open_002
+    400006: CBM-flaps-open_010
+    400008: //RootNode
+    400010: Short_Node
+    400012: Short_Node_MeshPart0
+    400014: Short_Node_MeshPart1
+    2300000: CBM-flaps-open_000
+    2300002: CBM-flaps-open_001
+    2300004: CBM-flaps-open_002
+    2300006: CBM-flaps-open_010
+    2300008: Short_Node_MeshPart0
+    2300010: Short_Node_MeshPart1
+    3300000: CBM-flaps-open_000
+    3300002: CBM-flaps-open_001
+    3300004: CBM-flaps-open_002
+    3300006: CBM-flaps-open_010
+    3300008: Short_Node_MeshPart0
+    3300010: Short_Node_MeshPart1
+    4300000: CBM-flaps-open_001
+    4300002: CBM-flaps-open_002
+    4300004: Short_Node_MeshPart0
+    4300006: Short_Node_MeshPart1
+    4300008: CBM-flaps-open_000
+    4300010: CBM-flaps-open_010
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminium
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminium_001
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminium_001__SX_Label_png_001
+    second: {fileID: 2100000, guid: a6c0149309d01e044aa88abf2d265e46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminium_003
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminium_015
+    second: {fileID: 2100000, guid: 8c68646ea139ca643a7dde92e7651599, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronze_001
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CBM_fabric
+    second: {fileID: 2100000, guid: 9b150120785fbcd4e9746cb0d8586df5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grey_Paint
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handhold_yellow
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_Seal_001__SX_Label_png_001
+    second: {fileID: 2100000, guid: f71df79401a13514d95f6e12223c4098, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver_Metal_rough
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Silver_Metal_rough_002__SX_Label_png_001
+    second: {fileID: 2100000, guid: 03f0e5fe00c93b8469c1998d30b57dce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White_Paint
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brownish_dark_metal
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brownish_dark_metal_002__SX_Label_png_001
+    second: {fileID: 2100000, guid: e3145af6be15b0b4790b7e567f4052b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cable_black_005
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: canadarm_grip_yellow
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_fabric
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_plastic
+    second: {fileID: 2100000, guid: 4ad374bd2c3f4f64e87a1c1906fa03b9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
