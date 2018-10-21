@@ -106,3 +106,8 @@ venv.bak/
 # checkpoints
 checkpoints/
 mmod_images/
+
+# Unity
+!Unity3D/Assets/*.cs
+Unity3D/
+Unity3D/*
