@@ -59,6 +59,9 @@ public class MoveOnPath : MonoBehaviour
         Debug.Log("Sequence Completed");
         callback.SequenceComplete();
 
+        GetComponent<HideHologramComponent>().ShowHologram();
+
+
         yield return Enumerable.Empty<int>();
     }
 

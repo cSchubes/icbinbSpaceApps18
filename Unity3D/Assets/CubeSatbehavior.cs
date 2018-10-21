@@ -18,6 +18,7 @@ public class CubeSatbehavior : MonoBehaviour, ICubeSatSequence
 
     public void StartSequence()
     {
+        GetComponent<HideHologramComponent>().HideHologram();
         Debug.Log("Sequence in progress");
         StartCoroutine(_imgCapture.BeginMovingOnPath(_sequenceCompleteCallback)); //DO work
     }
