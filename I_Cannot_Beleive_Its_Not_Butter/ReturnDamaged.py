@@ -5,8 +5,7 @@ def feed_model(image_data):
     
     PATH = '../CNN' ### THIS NEEDS TO BE CHANGED
     
-    model = TheModelClass()
-    model.load_state_dict(torch.load(PATH))
+    model = torch.load(PATH)
 
     model.eval()
 
@@ -18,3 +17,7 @@ def feed_model(image_data):
     damaged_pics = [torch_data[i] for i in indices]    
 
     return damaged_pics
+
+
+if __name__ == "__main__":
+    feed_model()
