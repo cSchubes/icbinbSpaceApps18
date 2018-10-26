@@ -21,8 +21,8 @@ public class HideHologramComponent : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        ShowHologram();
-       // HideHologram();
+        //ShowHologram();
+        HideHologram();
 	}
 	
 	// Update is called once per frame
