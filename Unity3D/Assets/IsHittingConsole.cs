@@ -35,21 +35,25 @@ public class IsHittingConsole : MonoBehaviour, ICubeSatSequenceCallback
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(transform.position, transform.forward, out hit))
         {
-            //Debug.Log("Did Hit" + hit.transform.gameObject.name);
+            Debug.Log("Did Hit" + hit.transform.gameObject.name);
 
             _pointingAtObject = hit.transform.gameObject.name == ConsoleObject.name;
 
-            if(_pointingAtObject)
+            if (_pointingAtObject)
             {
-                if(Input.GetKeyDown(KeyCode.E) && !_isSequenceRunning)
+                if (Input.GetKeyDown(KeyCode.E) && !_isSequenceRunning)
                 {
-                     Debug.Log("Pressed E");
+                    Debug.Log("Pressed E");
 
                     _isSequenceRunning = true;
 
                     _cubeSat.StartSequence();
-                } 
+                }
             }
+        }
+        else
+        {
+            _pointingAtObject = false;
         }
     }
 
@@ -60,11 +64,11 @@ public class IsHittingConsole : MonoBehaviour, ICubeSatSequenceCallback
         {
             if (_isSequenceRunning)
             {
-                GUI.Label(new Rect(Screen.width / 2, Screen.height / 4, 100, 100), "Inspection sequence is running...");
+               GUI.Label(new Rect(Screen.width / 2, Screen.height / 4, 100, 100), "Inspection sequence is running...");
             }
             else
             {
-                GUI.Label(new Rect(Screen.width / 2, Screen.height / 4, 100, 100), "Press E to start inspection sequence");
+               GUI.Label(new Rect(Screen.width / 2, Screen.height / 4, 100, 100), "Press E to start inspection sequence");
             }
         }
     }

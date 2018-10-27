@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 65e386349cd35dd41a8a30193a3c1180
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Circle
+    100004: Circle.002
+    100006: Cylinder
+    100008: Cylinder.004
+    100010: //RootNode
+    100012: Orion CM
+    100014: Orion fairing
+    100016: Orion Forward Bay Cover
+    100018: Orion IDS
+    100020: Orion Nofbc
+    100022: Orion SM
+    100024: Orion SM Umbilical
+    100026: Orion stage adapter
+    100028: PN 1
+    100030: PN 2
+    100032: PN 3
+    100034: PN 3_end
+    100036: PZ 1
+    100038: PZ 2
+    100040: PZ 3
+    100042: PZ 3_end
+    100044: SN 1
+    100046: SN 2
+    100048: SN 3
+    100050: SN 3_end
+    100052: SZ 1
+    100054: SZ 2
+    100056: SZ 3
+    100058: SZ 3_end
+    400000: Armature
+    400002: Circle
+    400004: Circle.002
+    400006: Cylinder
+    400008: Cylinder.004
+    400010: //RootNode
+    400012: Orion CM
+    400014: Orion fairing
+    400016: Orion Forward Bay Cover
+    400018: Orion IDS
+    400020: Orion Nofbc
+    400022: Orion SM
+    400024: Orion SM Umbilical
+    400026: Orion stage adapter
+    400028: PN 1
+    400030: PN 2
+    400032: PN 3
+    400034: PN 3_end
+    400036: PZ 1
+    400038: PZ 2
+    400040: PZ 3
+    400042: PZ 3_end
+    400044: SN 1
+    400046: SN 2
+    400048: SN 3
+    400050: SN 3_end
+    400052: SZ 1
+    400054: SZ 2
+    400056: SZ 3
+    400058: SZ 3_end
+    2100000: No Name
+    2100002: Orion solar cell
+    2100004: Aluminium
+    2100006: DarkMetal
+    2100008: RCS
+    2100010: white metal
+    2100012: CopperRedish
+    2100014: shiny silver
+    2100016: Bronze
+    2100018: thermal blanket white
+    2100020: OME bell
+    2100022: black metal
+    2100024: light grey matte
+    2100026: metalic TPS
+    2100028: Red paint
+    2100030: glass-Orion
+    2100032: olive metal
+    2100034: white fabric
+    2100036: Orion main heat shiled
+    2300000: Circle
+    2300002: Circle.002
+    2300004: Cylinder
+    2300006: Cylinder.004
+    2300008: Orion CM
+    2300010: Orion fairing
+    2300012: Orion Forward Bay Cover
+    2300014: Orion IDS
+    2300016: Orion Nofbc
+    2300018: Orion SM Umbilical
+    2300020: Orion stage adapter
+    3300000: Circle
+    3300002: Circle.002
+    3300004: Cylinder
+    3300006: Cylinder.004
+    3300008: Orion CM
+    3300010: Orion fairing
+    3300012: Orion Forward Bay Cover
+    3300014: Orion IDS
+    3300016: Orion Nofbc
+    3300018: Orion SM Umbilical
+    3300020: Orion stage adapter
+    4300000: Orion Nofbc
+    4300002: Cylinder
+    4300004: Orion SM
+    4300006: Cylinder.004
+    4300008: Orion SM Umbilical
+    4300010: Orion IDS
+    4300012: Circle.002
+    4300014: Orion fairing
+    4300016: Circle
+    4300018: Orion stage adapter
+    4300020: Orion CM
+    4300022: Orion Forward Bay Cover
+    9500000: //RootNode
+    13700000: Orion SM
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
